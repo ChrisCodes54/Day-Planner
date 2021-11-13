@@ -25,8 +25,8 @@ Christangarife95@gmail.com
 # Username
 Check out my other work on [Github](https://github.com/ChrisCodes54)
 # Screenshots
-![User's first view when opened (time subject to change depending on when opened](dayplanner.PNG)
+![User's first view when opened (time subject to change depending on when opened](dayplanner.png)
 
-![Mock up of daily use with the planner](usingdayplanner.PNG)
+![Mock up of daily use with the planner](usingdayplanner.png)
 
 
