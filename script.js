@@ -13,7 +13,7 @@ $(".saveBtn").on("click", function(){
 
     let timeBlock = $(this).parent().attr("id");
 
-    console.log(timeBlock, userInput)
+    // console.log(timeBlock, userInput)
     
     localStorage.setItem(timeBlock, userInput);
 
@@ -39,8 +39,8 @@ function keepinTime(){
 
         let timeBlockValue = parseInt($(this).attr("value"));
         //let timeBlockValue = parseInt($(this).attr("id").split("-")[1])
-        console.log(timeBlockValue)
-        console.log("current hour", currentHour)
+        // console.log(timeBlockValue)
+        // console.log("current hour", currentHour)
 
         if(timeBlockValue < currentHour){
             $(this).addClass("past");
@@ -63,7 +63,7 @@ keepinTime()
 
 for(var i = 9; i < 18; i++){
     $(`#hour-${[i]} .description`).val(localStorage.getItem(`hour-${[i]}`));
-    console.log([i])
+    // console.log([i])
 }
 // first lets set up the boxes, we did this through HTML, but will try and make it here.
 
