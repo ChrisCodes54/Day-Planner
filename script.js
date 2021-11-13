@@ -3,7 +3,7 @@ $("#currentDay").text(moment().format('LLLL'));
 }
 updateTime();
 setInterval(function(){
-   updateTime();
+updateTime();
 },60000);
 
 
